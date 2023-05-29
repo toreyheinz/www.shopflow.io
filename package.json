@@ -7,8 +7,12 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@types/node": "^18.15.12",
     "@nuxt/content": "^2.6.0",
-    "nuxt": "^3.5.2"
+    "@types/node": "^18.15.12",
+    "bulma": "^0.9.4",
+    "nuxt": "^3.5.2",
+    "pug": "^3.0.2",
+    "sass": "^1.62.1",
+    "sass-loader": "10"
   }
 }
