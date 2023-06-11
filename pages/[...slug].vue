@@ -1,3 +1,4 @@
-<template>
-  <ContentDoc />
+<template lang="pug">
+div.content
+  ContentDoc
 </template>

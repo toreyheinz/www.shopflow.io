@@ -1,9 +1,10 @@
 @import "bulma/sass/utilities/_all";
+@import "settings";
 @import "pallete";
 @import "bulma/bulma";
 
 
-nav.navbar .container {
+.main.navbar .container {
   border-bottom-color: rgba(24, 24, 24, 0.85);
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -11,4 +12,26 @@ nav.navbar .container {
 
 .navbar-item img {
   max-height: none;
+}
+
+.narrow {
+  max-width: 800px !important;
+  margin: 0 auto;
+}
+
+.homepage-hero {
+  height: 350px;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  background-image: url("@/assets/images/shopflow-sewing-head-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  // padding: 0 20px;
 }
