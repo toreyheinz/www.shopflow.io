@@ -1,10 +1,11 @@
 <template lang="pug">
-div.post.narrow.card
-  div.card-content
-    h1.title {{ post.title }}
-    p.subtitle {{ post.subtitle }}
-    div.content
-      ContentDoc
+div.mb-6
+  div.post.narrow.card
+    div.card-content
+      h1.title {{ post.title }}
+      p.subtitle {{ post.subtitle }}
+      div.content
+        ContentDoc
 </template>
 
 <script setup>
